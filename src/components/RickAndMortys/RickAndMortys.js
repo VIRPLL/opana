@@ -5,6 +5,8 @@ export const RickAndMortys = () => {
     return (
         <div>
             <RickAndMorty/>
+            <RickAndMorty/>
+            <RickAndMorty/>
         </div>
     );
 };
