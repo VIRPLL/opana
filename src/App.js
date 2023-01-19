@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import {Simpson} from "./components/Simpsons/Simpson/Simpson";
 import {Simpsons} from "./components/Simpsons/Simpsons";
+import {RickAndMortys} from "./components/RickAndMortys/RickAndMortys";
 
 function App() {
   return (
     <div className="App">
         {/*<Simpsons/>*/}
-
+        <RickAndMortys/>
     </div>
   );
 }
