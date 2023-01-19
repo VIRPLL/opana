@@ -5,7 +5,7 @@ import {RickAndMortys} from "./components/RickAndMortys/RickAndMortys";
 function App() {
   return (
     <div className="App">
-        {/*<Simpsons/>*/}
+        <Simpsons/>
         <RickAndMortys/>
     </div>
   );
