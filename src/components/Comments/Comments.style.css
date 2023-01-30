@@ -1,0 +1,10 @@
+.comments {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px auto;
+    padding: 20px;
+    overflow-y: scroll;
+}

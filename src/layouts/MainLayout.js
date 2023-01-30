@@ -1,8 +1,9 @@
 import React from 'react';
+import {Outlet} from "react-router-dom";
 
 import {SideBar} from "../components";
 import './MainLayout.style.css'
-import {Outlet} from "react-router-dom";
+
 
 export const MainLayout = () => {
 

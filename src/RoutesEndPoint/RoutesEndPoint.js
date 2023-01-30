@@ -3,5 +3,5 @@ export const RoutesEndPoint = {
     todos: 'todos',
     comments: 'comments',
     albums: 'albums',
-    postById: 'postById'
+    postById: ':postById'
 }

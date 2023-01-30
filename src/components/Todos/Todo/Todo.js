@@ -1,16 +1,17 @@
 import React from 'react';
 
-export const Todo = (props) => {
+import './Todo.style.css'
 
-    const {userId, id, title, completed} = props;
+export const Todo = ({todo}) => {
+
+    const {userId, id, title, completed} = todo;
 
     return (
-        <div>
+        <div className={'todo'}>
             <div>User Id: {userId}</div>
             <div>Id: {id}</div>
             <div>Title: {title}</div>
             <div>Completed: {completed}</div>
-            <hr/>
         </div>
     );
 };

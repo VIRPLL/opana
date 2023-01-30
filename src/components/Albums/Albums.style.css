@@ -1,0 +1,9 @@
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+}

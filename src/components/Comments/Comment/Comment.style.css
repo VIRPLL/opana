@@ -1,0 +1,21 @@
+.comment {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #b7b6b6;
+    text-align: center;
+}
+
+.btn {
+    margin: auto;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #dad6d6;
+}
+
+.btn:hover {
+    background-color: gray;
+}
