@@ -1,0 +1,33 @@
+.sideBar {
+    padding: 20px;
+    height: 94.5vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: gray;
+}
+
+.sideBar a {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #566c2f;
+    color: white;
+}
+
+.sideBar a[class='active'] {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #7eb999;
+    color: black;
+}
+
+.sideBar a:hover {
+    background-color: #46542e;
+}
