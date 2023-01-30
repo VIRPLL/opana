@@ -1,7 +1,8 @@
+import {useNavigate} from "react-router-dom";
+
 
 import {Comment} from "./Comment/Comment";
 import './Comments.style.css'
-import {useNavigate} from "react-router-dom";
 
 
 export const Comments = ({comments}) => {

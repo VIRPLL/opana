@@ -1,0 +1,13 @@
+.post {
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #b7b6b6;
+    text-align: center;
+}
+
+.post div {
+    margin-bottom: 10px;
+}

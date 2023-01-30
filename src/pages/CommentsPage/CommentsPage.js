@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
+import {Outlet} from "react-router-dom";
 
 import {Comments} from "../../components";
-import {Outlet} from "react-router-dom";
 import {commentsService} from "../../services";
 
 export const CommentsPage = () => {
@@ -16,6 +16,8 @@ export const CommentsPage = () => {
         <div>
             <Outlet />
             <hr/>
+            <hr/>
+            <h1 style={{textAlign:"center"}}>Comments</h1>
             <Comments comments={comments}/>
 
         </div>

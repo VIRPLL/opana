@@ -1,7 +1,8 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 import './SideBar.stayle.css';
-import {NavLink} from "react-router-dom";
+
 
 export const SideBar = () => {
 
