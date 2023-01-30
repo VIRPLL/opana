@@ -16,8 +16,6 @@ export const CommentsPage = () => {
         <div>
             <Outlet />
             <hr/>
-            <hr/>
-            <h1 style={{textAlign:"center"}}>Comments</h1>
             <Comments comments={comments}/>
 
         </div>

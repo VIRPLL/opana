@@ -1,5 +1,5 @@
 .post {
-    width: 300px;
+    width: 400px;
     padding: 10px;
     margin: 20px auto;
     border: 2px solid #000000;
@@ -8,6 +8,3 @@
     text-align: center;
 }
 
-.post div {
-    margin-bottom: 10px;
-}

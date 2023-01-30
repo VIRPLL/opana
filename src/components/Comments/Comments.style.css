@@ -1,8 +1,10 @@
 .comments {
     display: flex;
+    height: 500px;
     flex-wrap: wrap;
     width: 95%;
     justify-content: space-around;
     margin: 10px auto;
     padding: 20px;
+    overflow-y: scroll;
 }

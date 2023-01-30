@@ -20,7 +20,6 @@ export const PostByIdPage = () => {
 
     return (
         <div>
-            <h1 style={{textAlign:"center"}}>Post</h1>
             <div className={'post'}>
                 <div>UserId: {post.userId}</div>
                 <div>Id: {post.id}</div>
